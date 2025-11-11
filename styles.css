@@ -1974,9 +1974,10 @@ footer p {
   background: linear-gradient(135deg, #cc2b5e, #753a88); /* Deep pink to purple */
 }
 
-.portfolio-item:nth-child(11) img {
+/* .portfolio-item:nth-child(11) {
   padding-top: 25px;
-}
+} */
+
 /* ========== CONTACT SECTION ========== */
 .contact {
   position: relative;
@@ -2189,6 +2190,32 @@ footer p {
 
 .portfolio-image{
     scale: 1.01;
+   
+}
+
+.hero-image {
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#fff, #fff), 
+                      linear-gradient(135deg, #CD2C58, #A82348, #E05D7F);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    animation: borderGradient 5s linear infinite;
+}
+
+@keyframes borderGradient {
+    0% {
+        background-image: linear-gradient(#fff, #fff), 
+                          linear-gradient(135deg, #CD2C58, #A82348, #E05D7F);
+    }
+    50% {
+        background-image: linear-gradient(#fff, #fff), 
+                          linear-gradient(135deg, #E05D7F, #CD2C58, #A82348);
+    }
+    100% {
+        background-image: linear-gradient(#fff, #fff), 
+                          linear-gradient(135deg, #CD2C58, #A82348, #E05D7F);
+    }
 }
 
 .profile-image{
