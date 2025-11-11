@@ -205,7 +205,7 @@ const projects = {
         title: 'Thirumalai Nagar',
         location: 'Walajabad Town, Tamil Nadu',
         poster: 'projects/posters/11.jpg',
-        layout: 'projects/layouts/11a.jpg',
+        layout: 'projects/layouts/011a_new.jpg',
         description: 'THIRUMALAI NAGAR offers a gated community with cement roads, parks, a temple, and 24/7 security. It features walkways, public utility areas, stormwater drains, and streetlights for a well-developed layout. With commercial shops, children’s play areas, parking, and 90% bank loan availability, it ensures modern and convenient living.'
     },
     // Add more projects as needed
@@ -233,7 +233,7 @@ function openProjectModal(projectId) {
     
     // Update WhatsApp button with project details
     const whatsappBtn = document.getElementById('whatsappBtn');
-    const phoneNumber = '919367936748'; // Replace with your WhatsApp number (without + or spaces)
+    const phoneNumber = '919498500109'; // Replace with your WhatsApp number (without + or spaces)
     const message = `Hi, I'm interested in ${project.title}. I would like to know more details about this project.`; 
     const encodedMessage = encodeURIComponent(message);
     whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

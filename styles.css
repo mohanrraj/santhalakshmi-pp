@@ -1974,9 +1974,8 @@ footer p {
   background: linear-gradient(135deg, #cc2b5e, #753a88); /* Deep pink to purple */
 }
 
-
 .portfolio-item:nth-child(11) img {
-  object-fit: fill;
+  padding-top: 25px;
 }
 /* ========== CONTACT SECTION ========== */
 .contact {
