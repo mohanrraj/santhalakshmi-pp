@@ -1093,7 +1093,7 @@ footer p {
 
 .footer-links a:hover {
   /* color: white; */
-  color: maroon;
+  color: var(--primary);
   zoom: 1.1;
 }
 
